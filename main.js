@@ -5,9 +5,9 @@ import "leaflet.markercluster";
 
 const getGeojson = async () => {
 	try {
-		return await d3.json("./public/data/sites_geojson.json");
+		return await d3.json("data/sites_geojson.json");
 	} catch (err) {
-		console.error("Error loading park geojson", err);
+		console.error("Error loading geojson", err);
 	}
 };
 
