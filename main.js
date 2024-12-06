@@ -21,17 +21,16 @@ const centerUS = [45, -110];
 const initialZoom = 3;
 const map = L.map(mapElement.node()).setView(centerUS, initialZoom);
 
-const Stadia_AlidadeSmooth = L.tileLayer(
-	"https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}",
+const Esri_WorldTopoMap = L.tileLayer(
+	"https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
 	{
 		// attribution:
-		// 	'&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-		// ext: "png",
+		// 	"Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community",
 	}
 );
 
 // Add tile layer to the map
-Stadia_AlidadeSmooth.addTo(map);
+Esri_WorldTopoMap.addTo(map);
 
 // Create a layer group for the circles
 const markers = L.layerGroup();
