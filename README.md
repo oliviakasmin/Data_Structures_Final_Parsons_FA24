@@ -1,4 +1,4 @@
-# Data Structures - Fall 2024 - Final Project
+# Data Structures - Parsons Fall 2024 - Final Project
 
 Data Visualization MS at Parsons School of Design
 
