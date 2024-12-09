@@ -8,10 +8,10 @@ The EPA makes Superfund data publicly available on their website, but it’s spr
 
 **Method:**
 
-1. Scraped table data from the EPA Superfund website using Playwright and Pandas in Python [source](https://cumulis.epa.gov/supercpad/Cursites/srchsites.cfm)
-2. Converted PDF table data from the EPA Superfund website to CSVs using Adobe and cleaned the data in Pandas [source](https://www.epa.gov/superfund/superfund-data-and-reports)
-3. Sourced additional CSV data from the EPA Superfund website and joined and cleaned all of the data in Pandas [source](https://www.epa.gov/superfund/superfund-data-and-reports)
-4. Created basic visualizations of the data using Pandas and Matplotlib
+1. Scraped table data from the EPA Superfund website using Playwright and Pandas in Jupyter Notebook [source](https://cumulis.epa.gov/supercpad/Cursites/srchsites.cfm)
+2. Converted PDF table data from the EPA Superfund website to CSVs using Adobe and cleaned the data in Pandas in Jupyter Notebook [source](https://www.epa.gov/superfund/superfund-data-and-reports)
+3. Sourced additional CSV data from the EPA Superfund website and joined and cleaned all of the data in Pandas in Jupyter Notebook [source](https://www.epa.gov/superfund/superfund-data-and-reports)
+4. Created basic visualizations of the data using Pandas and Matplotlib in Jupyter Notebook
 5. Created a basic map visualization of the data in JS using Leaflet
 <br>  
   
